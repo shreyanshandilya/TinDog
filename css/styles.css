@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.carousel-inner {
+    padding: 7% 8%;
+}
+
+#cta {
+    background: #ff4c68;
+    font-family: 'Montserrat',sans-serif;
+    padding: 5% 20%;
+    text-align: center;
+} 
+
+.cta-button {
+    margin: 2rem 0.5rem 0rem 2rem;
+}
+
+.cta-heading {
+    color: white;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.dog-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.fa-brands{
+    margin-right: 10px;
+}
+
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-content {
+    padding: 5% 0 2% 0;
+    text-align: center;
+}
+
+.features-heading {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-logo {
+    color: #ef8172;
+    font-size: 400%;
+    margin-bottom: 1rem;
+}
+
+.feature-logo:hover {
+    color: #ff4c68;
+}
+
+.features-text {
+    color: #8f8f8f;
+}
+
+#footer {
+    padding: 2%;
+    text-align: center;
+}
+
+.footer-text {
+    color: gray;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.heading {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+}
+
+.logo {
+    padding: 2rem 0.2rem;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: light;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-items {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding : 100px;
+    text-align : center; 
+}
+
+.pricing-column {
+    padding: 3% 2%;    
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.top-container {
+    padding: 3% 15% 7%;
+    height: 40%;
+    overflow: hidden;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+
+#title{
+    background-color:#ff4c68;
+    color: white;
+}
+
+@media (max-width : 1028px) {
+    .heading {
+        text-align : center; 
+    }
+    .dog-image {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;    
+    }
+}   
